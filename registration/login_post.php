@@ -40,7 +40,7 @@ if($flag){
     header('location:login.php');
 }
 else{
-    $_SESSION['login_success'] = 'Enter Password';
+    $_SESSION['login_success'] = 'Login Success';
     header('location:dashboard.php');
 }
 
